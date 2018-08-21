@@ -1,6 +1,6 @@
 # rear-vue-inline
 
-Inline version of [rear-vue-mirror]() to produce components from [CEP Magic Mirror](https://github.com/Inventsable/CEP-Magic-Mirror), example toolbar controls:
+Inline version of [rear-vue-mirror](https://github.com/Inventsable/rear-vue-mirror) to produce components from [CEP Magic Mirror](https://github.com/Inventsable/CEP-Magic-Mirror), example toolbar controls:
 
 ## with [CEP Magic Mirror](https://github.com/Inventsable/CEP-Magic-Mirror)
 
@@ -37,6 +37,8 @@ Class names handle everything in JS and CSS but clutter the HTML:
     <adobe-btn icon="fill" switch="false"></adobe-btn>
     <adobe-btn icon="file"></adobe-btn>
     <adobe-btn icon="folder"></adobe-btn>
+    <adobe-checkbox state="on">Text here</adobe-checkbox>
+    <adobe-checkbox state="off">Is unchecked</adobe-checkbox>
     <adobe-toolbar-divider />
   </adobe-toolbar>
 ```
